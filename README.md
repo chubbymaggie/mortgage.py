@@ -18,7 +18,7 @@ In this example, we simulate a mortgage that is:
 - paid for a year according to its initial terms; then
 - refinanced to different terms; then
 - paid according to that for two months before making a large one-time payment, then again for another two months; and finally
-- paying extra principal each month until close.
+- paid until close while paying extra principal each month.
 
 The details below should be self-explanatory:
 
@@ -98,7 +98,7 @@ period | principal | principal paid | interest paid | other costs | total paid
     32 |      0.00 |         350.52 |          0.88 |           0 |  317295.19
 ```
 
-which shows that the loan is paid off after 32 periods from the origination of the initial mortgage, with a total payment of $317,295.19 (vs. the original $300,000 loan). For each period, the data show:
+which reports that the loan is paid off after 32 periods from the origination of the initial mortgage, with a total payment of $317,295.19 (vs. the original $300,000 loan). For each period, the data show:
 - the remaining principal;
 - the amount of that period's payment going toward the principal;
 - the amount of that period's payment going toward interest;
